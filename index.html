@@ -1,0 +1,946 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- head tag starts -->
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<title>
+    Instalocate - AI Personal Travel Assistant
+</title>
+
+<!-- Meta description and Keywords -->
+<meta name="description" content="Instalocate is an AI powered personal travel assitant to convert your flight delays into money. Instalocate assistant tracks your journey in real time, predicts possible problems and then help you in resolving the problems automatically.">
+<meta name="keywords" content="Flight Delays, Location Gateway, Facebook bot, Chatbots, Flight Tracking, Compensation, EC 261, Flight Cancellation, Denied Boarding">
+
+<!-- Facebook Open Graph Tags -->
+<meta property="og:site_name" content="Instalocate" />
+<meta property="og:site" content="www.instalocate.com" />
+<meta property="og:url" content="https://www.instalocate.com" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Convert your flight delays into free money using Instalocate." />
+<meta property="og:description" content="Instalocate converts flight delays and cancellation into free money. Use Instalocate AI assistant to get up to $700 (600 Euros) in compensation for flight delays and cancellation." />
+<meta property="og:image" content="https://www.instalocate.com/images/screenshots/new_images/instalocate_twitter_card_picture.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="600">
+<meta property="fb:app_id" content="1067311786665189" />
+
+<!-- Twitter Card Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@instalocate" />
+<meta name="twitter:creator" content="@instalocate" />
+<meta name="twitter:title" content="Convert your flight delays into free money using Instalocate." />
+<meta name="twitter:description" content="Instalocate converts flight delays and cancellation into free money. Use Instalocate AI assistant to get up to $700 (600 Euros) in compensation for flight delays and cancellation." />
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon_folder/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon_folder/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon_folder/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon_folder/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon_folder/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon_folder/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon_folder/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon_folder/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_folder/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/images/favicon_folder/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_folder/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon_folder/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_folder/favicon-16x16.png">
+<link rel="manifest" href="/images/favicon_folder/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/images/favicon_folder/ms-icon-144x144.png">
+
+<!-- Other Settings -->
+<meta name="theme-color" content="#ffffff">
+
+<link href='https://app.instalocate.com' rel='preconnect' crossorigin>
+<link href='https://fonts.gstatic.com' rel='preconnect' crossorigin>
+<link href='https://fonts.gstatic.com' rel='preconnect' crossorigin>
+<link href='https://blog.instalocate.com' rel='preconnect' crossorigin>
+
+<!-- Google Specific Settings -->
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Instalocate",
+    "alternateName": "Instalocate",
+    "url": "https://www.instalocate.com"
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "Instalocate",
+    "logo": "https://www.instalocate.com/images/logos/logo5_4x.png",
+    "url": "https://www.instalocate.com",
+    "sameAs": [
+        "https://www.facebook.com/instalocate",
+        "https://www.twitter.com/instalocate",
+        "https://www.youtube.com/channel/UCb6Mu89zTXla7K1lvTAOpRg"
+    ],
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-650-229-9887",
+        "contactType": "Customer Service",
+        "email": "hello@instalocate.com"
+    },
+    "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States",
+        "addressLocality": "Palo Alto",
+        "addressRegion": "CA",
+        "postalCode": "94303",
+        "streetAddress": "777 San Antonio Road"
+    }
+}
+</script>
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="production.v1512041343308.min.css">
+    <!--STYLES END-->
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <script type="text/javascript">
+    var MESSENGER_APP_ID = "1067311786665189";
+    var FACEBOOK_PAGE_ID = "182539172078482";
+    var FACEBOOK_PIXEL_ID = "138154540006948";
+    // for Messenger Extensions
+    var MESSENGER_EXTENSIONS_PARAMS = {};
+    MESSENGER_EXTENSIONS_PARAMS["loaded_status"] = false;
+    </script>
+            <!-- Google Analytics -->
+<script type="text/javascript">
+(function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+// Disable Google analytics for localhost
+if (document.location.hostname != "localhost") {
+    ga('create', 'UA-77914962-1', 'auto');
+    ga('send', 'pageview');
+}
+</script>
+
+<script type="text/javascript">
+function _gaLt(event) {
+    /* If GA is blocked or not loaded, or not main|middle|touch click then don't track */
+    if (!ga.hasOwnProperty("loaded") || ga.loaded != true || (event.which != 1 && event.which != 2)) {
+        return;
+    }
+    var el = event.srcElement || event.target;
+    /* Loop up the DOM tree through parent elements if clicked element is not a link (eg: an image inside a link) */
+    while (el && (typeof el.tagName == 'undefined' || el.tagName.toLowerCase() != 'a' || !el.href)) {
+        el = el.parentNode;
+    }
+    /* if a link with valid href has been clicked */
+    if (el && el.href) {
+        var link = el.href;
+        /* Only if it is an external link */
+        if (link.indexOf(location.host) == -1 && !link.match(/^javascript\:/i)) {
+            /* Is actual target set and not _(self|parent|top)? */
+            var target = (el.target && !el.target.match(/^_(self|parent|top)$/i)) ? el.target : false;
+            /* Assume a target if Ctrl|shift|meta-click */
+            if (event.ctrlKey || event.shiftKey || event.metaKey || event.which == 2) {
+                target = "_blank";
+            }
+            var hbrun = false; // tracker has not yet run
+            /* HitCallback to open link in same window after tracker */
+            var hitBack = function() {
+                /* run once only */
+                if (hbrun) return;
+                hbrun = true;
+                window.location.href = link;
+            };
+            if (target) { /* If target opens a new window then just track */
+                ga(
+                    "send", "event", "Outgoing Links", link,
+                    document.location.pathname + document.location.search
+                );
+            } else { /* Prevent standard click, track then open */
+                event.preventDefault ? event.preventDefault() : event.returnValue = !1;
+                /* send event with callback */
+                ga(
+                    "send", "event", "Outgoing Links", link,
+                    document.location.pathname + document.location.search, {
+                        "hitCallback": hitBack
+                    }
+                );
+                /* Run hitCallback again if GA takes longer than 1 second */
+                setTimeout(hitBack, 1000);
+            }
+        }
+    }
+}
+var _w = window;
+/* Use "click" if touchscreen device, else "mousedown" */
+var _gaLtEvt = ("ontouchstart" in _w) ? "click" : "mousedown";
+/* Attach the event to all clicks in the document after page has loaded */
+_w.addEventListener ? _w.addEventListener("load", function() {
+    document.body.addEventListener(_gaLtEvt, _gaLt, !1)
+}, !1) : _w.attachEvent && _w.attachEvent("onload", function() {
+    document.body.attachEvent("on" + _gaLtEvt, _gaLt)
+});
+</script>
+
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window,
+        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', FACEBOOK_PIXEL_ID); // Insert your pixel ID here.
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=138154540006948&ev=PageView&noscript=1" /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+
+    <!-- start Mixpanel -->
+    <script type="text/javascript">
+    (function(e, a) {
+        if (!a.__SV) {
+            var b = window;
+            try {
+                var c, l, i, j = b.location,
+                    g = j.hash;
+                c = function(a, b) {
+                    return (l = a.match(RegExp(b + "=([^&]*)"))) ? l[1] : null
+                };
+                g && c(g, "state") && (i = JSON.parse(decodeURIComponent(c(g, "state"))), "mpeditor" === i.action && (b.sessionStorage.setItem("_mpcehash", g), history.replaceState(i.desiredHash || "", e.title, j.pathname + j.search)))
+            } catch (m) {}
+            var k, h;
+            window.mixpanel = a;
+            a._i = [];
+            a.init = function(b, c, f) {
+                function e(b, a) {
+                    var c = a.split(".");
+                    2 == c.length && (b = b[c[0]], a = c[1]);
+                    b[a] = function() {
+                        b.push([a].concat(Array.prototype.slice.call(arguments,
+                            0)))
+                    }
+                }
+                var d = a;
+                "undefined" !== typeof f ? d = a[f] = [] : f = "mixpanel";
+                d.people = d.people || [];
+                d.toString = function(b) {
+                    var a = "mixpanel";
+                    "mixpanel" !== f && (a += "." + f);
+                    b || (a += " (stub)");
+                    return a
+                };
+                d.people.toString = function() {
+                    return d.toString(1) + ".people (stub)"
+                };
+                k = "disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+                for (h = 0; h < k.length; h++) e(d, k[h]);
+                a._i.push([b, c, f])
+            };
+            a.__SV = 1.2;
+            b = e.createElement("script");
+            b.type = "text/javascript";
+            b.async = !0;
+            b.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === e.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+            c = e.getElementsByTagName("script")[0];
+            c.parentNode.insertBefore(b, c)
+        }
+    })(document, window.mixpanel || []);
+    mixpanel.init("5ad7e9d0b830bbebc08978a6d7da7342");
+    // Mixpanel
+    var mixpanel_values = {};
+    mixpanel_track_event_name = "pageview";
+    if (mixpanel) {
+        mixpanel.track(mixpanel_track_event_name, mixpanel_values);
+    }
+    </script>
+    <!-- end Mixpanel -->
+    </head>
+    <!-- head tag ends -->
+
+    <body class="body_container">
+        <script>
+window.fbAsyncInit = function() {
+    FB.init({
+        appId: MESSENGER_APP_ID,
+        cookie: true,
+        xfbml: true,
+        version: 'v2.8'
+    });
+    // Check Facebook Login
+    FB.getLoginStatus(function(response) {
+        // console.log("Inside FB.getLoginStatus");
+        facebookLoginStatusChange(FB, response);
+    });
+    FB.Event.subscribe('send_to_messenger', function(e) {
+        var event = e.event;
+        if (event === "clicked") {
+            var click_data_value = e.ref;
+            var event_category = "track_buttons_to_messenger_click";
+            var event_action = "send_to_messenger_button";
+            var event_value = click_data_value;
+            // ga('send', 'event', event_category, event_action, event_value);
+            // Google Analytics
+            recordClickGoogleAnalytics(event_category, event_action, event_value);
+            // Mixpanel
+            recordMixpanelAnalytics(event_category, event_action, event_value);
+        }
+        if (event === "rendered") {
+            var event_category = "send_to_messenger_button_rendered";
+            var event_action = "button_rendered";
+            var event_value = e.ref;
+            // ga('send', 'event', event_category, event_action, event_value);
+            recordClickGoogleAnalytics(event_category, event_action, event_value);
+            // Mixpanel
+            recordMixpanelAnalytics(event_category, event_action, event_value);
+        }
+    });
+};
+// Load the SDK asynchronously
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+            <div class="main_content_container">
+                <div class="containerfluid">
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-toggleable-md" sty1le="background-color: #EFEFEF;">
+    <button class="navbar-toggler navbar-toggler-right toggler_button" type="button" data-toggle="collapse" data-target="#navbar_links">
+        <i class="icon fa fa-bars" aria-hidden="true"></i>
+    </button>
+
+    <a class="navbar-brand" href="/">
+        <img class="logo" src="/images/new_logos/instalocate_logo_white.png">
+    </a>
+    <div id="navbar_links" class="collapse navbar-collapse justify-content-end text-right">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/about_us">
+                    About Us
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/assistant">
+                    AI Assistant
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://blog.instalocate.com">
+                    Blog
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://app.instalocate.com">
+                    Flight Compensation
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/passenger_rights">
+                    Passenger Rights
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <!-- Hero Section -->
+            <div class="container-fluid home_page_hero_section ve1rtical-align text-center">
+    <div class="row text-center">
+        <div class="col">
+            <div class="hero_section my-3">
+                <h2 class="main_heading animated fadeInUp">Convert flight delays into money</h2>
+                <p class="animated fadeInUp lead">Get up to 600 Euros in compensation for your delayed and cancelled flights</p>
+                <div class="input_widget animated fadeInUp mx-auto">
+                    <form class="form" id="home_page_input_widget_form" name="home_page_input_widget_form" data-parsley-validate>
+                        <input type="hidden" name="_csrf" value="Tt68lofl-12Mw55wVpe02yZzvOfZcMrWpOIw" />
+                        <div class="form-group">
+                        <input type="text" name="airline_code" class="form-control airline_code_autocomplete typeahead" id="airline_code" class="form-control" data-provide="typeahead" placeholder="Select Airlines ..." required aria-required=”true” data-parsley-required" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="flight_number" class="form-control" id="flight_number" placeholder="Flight Number" required aria-required=”true” data-parsley-required">
+                        </div>
+                        <div class="form-group">
+                            <input data-provide="datepicker" data-date-format="yyyy-mm-dd" format="yyyy-mm-dd" data-date-end-date="0d" name="departure_date" class="form-control compensation_date_input" id="departure_date" placeholder="Departure Date" required data-parsley-required aria-required=”true” readonly="readonly">
+                        </div>
+                        <button type="submit" id="home_page_compensation_form_button" class="btn btn-success btn-block">Check Now</button>
+                        <div id="loader_after_form_submit" class="instalocate_hide">
+                            <p>
+                                <span id="loader_after_form_submit_message">Checking flight details ...</span>
+                                <div class="progress w-90">
+                                    <div id="compensation_progress_bar" class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+                                </div>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <div class="demo_queries animated fadeInUp mx-auto">
+                        To see how it works, check out:
+                        <div>
+                            <a href="http://app.instalocate.com/result?airline_code=BA&flight_number=208&date_of_dpt=2017-10-13">BA 208 (Miami to London)</a>
+<!--                             <br/>
+                            <a href="http://app.instalocate.com/result?airline_code=AI&flight_number=866&date_of_dpt=2017-10-14">AI 866 (BOM to DEL)</a>
+ -->                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <!-- Features Section -->
+            <!-- Feature -->
+<div class="row home_page_features_list">
+    <div class="col-12 col-md-6 feature_text_section">
+
+        <div class="individual_feature_section">
+            <ul class="list-unstyled">
+
+                <a name="assistant"></a>
+                <li class="media special_feature_assistant">
+                    <h1 class="image_icon hidden-sm-down"><i class="fa fa-paper-plane" aria-hidden="true"></i></h1>
+
+                    <div class="media-body">
+                        <h3 class="mt-0 mb-1 feature_title">AI personal travel assistant</h3>
+                        <p class="feature_description">
+                            Get your own personal automated travel assistant who will look after you on your travel day. It is available 24x7!
+                        </p>
+                        <div class="feature_action">
+                            <a target="_blank" href="https://m.me/instalocate"><strong>Talk to the assistant on Facebook Messenger</strong> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="media special_feature_compensation">
+                    <h1 class="image_icon hidden-sm-down"><i class="fa fa-dollar" aria-hidden="true"></i></h1>
+
+                    <div class="media-body">
+                        <a name="compensation"></a>
+                        <h3 class="mt-0 mb-1 feature_title">Get flight delay compensation</h3>
+                        <p class="feature_description">
+                            You are entitled to get compensation when your flight is delayed. It can be as high as $650! Check how much money you have left on the table for your past flight delays.
+                        </p>
+                        <div class="feature_action">
+                            <a href="http://app.instalocate.com">Check your flight for compensation <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="media special_feature_know_rights">
+                    <h1 class="image_icon hidden-sm-down"><i class="fa fa-balance-scale" aria-hidden="true"></i></h1>
+
+                    <div class="media-body">
+                        <h3 class="mt-0 mb-1 feature_title">Know your customer rights</h3>
+                        <p class="feature_description">
+                            Nobody likes to read complex customer rights documents - they are complex and full of legal language. We have summarized the rights for you. </p>
+                        <div class="feature_action">
+                            <a href="/passenger_rights">Customer rights <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+    <div class="col-12 col-md-6 text-center feature_image_section">
+        <img class="feature_image img-fluid mx-auto animated fadeInLeft " src="/images/screenshots/instalocate_gif1.gif">
+        <!-- <img class="feature_image img-fluid mx-auto animated fadeInLeft " src="/images/screenshots/new_images/instalocate3.png"> -->
+
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col">
+            <!-- Media Coverage Section -->
+            <!-- Media Coverage -->
+<div class="container-fluid">
+    <div class="row home_page_media_coverage">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="media_section_title text-center">
+                        Media Coverage
+                    </3>
+                </div>
+            </div>
+            <div class="row hidden-sm-down">
+
+                    <div class="col media_entry text-center">
+                        <a href="https://economictimes.indiatimes.com/small-biz/startups/how-instalocate-helps-aggrieved-flyers-get-compensation-from-airlines/articleshow/61085741.cms">
+                            <img class="img-thumbnail1 rounded media_logo" src="/images/media_coverage/logos/et_logo_2.jpg">
+                            <p class="media_name">
+                                Economic Times
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="col media_entry text-center">
+                        <a href="https://www.forbes.com/sites/tomaslaurinavicius/2017/04/24/facebook-messenger-bots/#853e06366d88">
+                            <img class="img-thumbnail1 rounded media_logo" src="/images/media_coverage/logos/forbes.png">
+                            <p class="media_name">
+                                Forbes
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="col media_entry text-center">
+                        <a href="https://chatbottle.co/awards/1st-chatbottle-awards-2017-winners">
+                            <img class="img-thumbnail1 rounded media_logo" src="/images/media_coverage/logos/chatbottle.png">
+                            <p class="media_name">
+                                ChatBottle Awards
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="col media_entry text-center">
+                        <a href="http://venturebeat.com/2017/01/25/the-7-best-chatbots-of-2016-by-popular-vote/">
+                            <img class="img-thumbnail1 rounded media_logo" src="/images/media_coverage/logos/venture_beat_logo1.png">
+                            <p class="media_name">
+                                Venturebeat
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="col media_entry text-center">
+                        <a href="http://gadgets.ndtv.com/apps/features/this-bot-lets-you-track-flights-using-facebook-messenger-863934">
+                            <img class="img-thumbnail1 rounded media_logo" src="/images/media_coverage/logos/ndtvgadgetlogo.png">
+                            <p class="media_name">
+                                NDTV Gadgets
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="col media_entry text-center">
+                        <a href="https://www.cnet.com/videos/best-facebook-messenger-bots/">
+                            <img class="img-thumbnail1 rounded media_logo" src="/images/media_coverage/logos/cnet_logo.png">
+                            <p class="media_name">
+                                CNET
+                            </p>
+                        </a>
+                    </div>
+
+            </div>
+            <div class="row hidden-md-up">
+
+
+
+                    <div class="col-12 media_entry text-center ">
+                        <a href="https://economictimes.indiatimes.com/small-biz/startups/how-instalocate-helps-aggrieved-flyers-get-compensation-from-airlines/articleshow/61085741.cms">
+                            <img class="img-thumbnail1 rounded media_logo" src="/images/media_coverage/logos/et_logo_2.jpg">
+                            <p class="media_name">
+                                Economic Times
+                            </p>
+                        </a>
+                    </div>
+
+
+
+                    <div class="col-12 media_entry text-center ">
+                        <a href="https://www.forbes.com/sites/tomaslaurinavicius/2017/04/24/facebook-messenger-bots/#853e06366d88">
+                            <img class="img-thumbnail1 rounded media_logo" src="/images/media_coverage/logos/forbes.png">
+                            <p class="media_name">
+                                Forbes
+                            </p>
+                        </a>
+                    </div>
+
+
+
+                    <div class="col-12 media_entry text-center ">
+                        <a href="https://chatbottle.co/awards/1st-chatbottle-awards-2017-winners">
+                            <img class="img-thumbnail1 rounded media_logo" src="/images/media_coverage/logos/chatbottle.png">
+                            <p class="media_name">
+                                ChatBottle Awards
+                            </p>
+                        </a>
+                    </div>
+
+
+
+                    <div class="col-12 media_entry text-center hidden-sm-down">
+                        <a href="http://venturebeat.com/2017/01/25/the-7-best-chatbots-of-2016-by-popular-vote/">
+                            <img class="img-thumbnail1 rounded media_logo" src="/images/media_coverage/logos/venture_beat_logo1.png">
+                            <p class="media_name">
+                                Venturebeat
+                            </p>
+                        </a>
+                    </div>
+
+
+
+                    <div class="col-12 media_entry text-center hidden-sm-down">
+                        <a href="http://gadgets.ndtv.com/apps/features/this-bot-lets-you-track-flights-using-facebook-messenger-863934">
+                            <img class="img-thumbnail1 rounded media_logo" src="/images/media_coverage/logos/ndtvgadgetlogo.png">
+                            <p class="media_name">
+                                NDTV Gadgets
+                            </p>
+                        </a>
+                    </div>
+
+
+
+                    <div class="col-12 media_entry text-center hidden-sm-down">
+                        <a href="https://www.cnet.com/videos/best-facebook-messenger-bots/">
+                            <img class="img-thumbnail1 rounded media_logo" src="/images/media_coverage/logos/cnet_logo.png">
+                            <p class="media_name">
+                                CNET
+                            </p>
+                        </a>
+                    </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col more_links_section text-center">
+                    <a href="/press">More coverage <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <!-- Blog Section -->
+            <!-- Blog Posts -->
+<div class="container-fluid">
+    <div class="row home_page_blog">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h3 class="blog_section_title text-center">
+                        <a href="https://blog.instalocate.com">Blog</a>
+                    </3>
+                </div>
+            </div>
+
+            <div class="row">
+
+
+                    <div class="col-10 col-md-4 blog_entry ">
+                        <div class="card">
+                            <a href='https://blog.instalocate.com/how-instalocate-got-me-734-53-in-compensation-for-an-ugly-14-hour-flight-delay-78d9c932eb28'>
+                                <img class="card-img-top picture" src='/images/home_page/blogs/blog_1.jpeg'>
+                            </a>
+                          <div class="card-block">
+                                <p class="card-title">
+                                    <a href='https://blog.instalocate.com/how-instalocate-got-me-734-53-in-compensation-for-an-ugly-14-hour-flight-delay-78d9c932eb28'>
+                                    How Instalocate got me $734.53 in compensation?
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-10 col-md-4 blog_entry hidden-sm-down">
+                        <div class="card">
+                            <a href='https://blog.instalocate.com/how-to-deal-with-baggage-delays-de432b111b13'>
+                                <img class="card-img-top picture" src='/images/home_page/blogs/blog_3.jpeg'>
+                            </a>
+                          <div class="card-block">
+                                <p class="card-title">
+                                    <a href='https://blog.instalocate.com/how-to-deal-with-baggage-delays-de432b111b13'>
+                                    How to deal with baggage delays?
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-10 col-md-4 blog_entry hidden-sm-down">
+                        <div class="card">
+                            <a href='https://blog.instalocate.com/did-you-know-a-long-flight-delay-could-mean-600-euros-4a5b67367b81'>
+                                <img class="card-img-top picture" src='/images/home_page/blogs/blog_2.jpeg'>
+                            </a>
+                          <div class="card-block">
+                                <p class="card-title">
+                                    <a href='https://blog.instalocate.com/did-you-know-a-long-flight-delay-could-mean-600-euros-4a5b67367b81'>
+                                    Did you know a flight delay could mean 600 Euros?
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <!-- Testimonials Section -->
+            <!-- Testimonial -->
+<div class="container-fluid">
+    <div class="row home_page_testimonials">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h3 class="testimonial_section_title text-center">
+                        What people are saying?
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="testimonial_carousel" class="carousel slide" data-ride="carousel" data-interval=3000>
+                        <div class="carousel-inner" role="listbox">
+
+
+                                    <div class="carousel-item active">
+                                        <blockquote class="blockquote testimonial_entry">
+                                            <p class="mb-0">
+                                                2 minutes to fill out their form, and done nothing after that! Was very happy to get $734.53 from Delta.
+                                            </p>
+                                            <div class="blockquote-footer">
+                                                <cite class="name">
+                                                    Amit from
+                                                        Cummings, GA, USA
+                                                </cite>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+
+
+                                    <div class="carousel-item non_active">
+                                        <blockquote class="blockquote testimonial_entry">
+                                            <p class="mb-0">
+                                                The airline was playing hard-ball, but I got my claim money through Instalocate. Excellent help, thanks guys!
+                                            </p>
+                                            <div class="blockquote-footer">
+                                                <cite class="name">
+                                                    Neomi from
+                                                        Menlo Park, CA, USA
+                                                </cite>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+
+
+                                    <div class="carousel-item non_active">
+                                        <blockquote class="blockquote testimonial_entry">
+                                            <p class="mb-0">
+                                                These people are real professionals. They have their process in place! My compensation is here, thank you, Instalocate!
+                                            </p>
+                                            <div class="blockquote-footer">
+                                                <cite class="name">
+                                                    Lucy from
+                                                        San Francisco, CA, USA
+                                                </cite>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col more_links_section text-center">
+                    <a href="/testimonials">More testimonials <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+            </div>
+
+            <footer class="container-fluid">
+    <div class="row">
+        <div class="col-6 col-md-4">
+            <ul>
+                <li>
+                    <h5 class="footer_heading"> About Us</h5>
+                </li>
+                <li>
+                    <a href="/about_us">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://blog.instalocate.com">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact">
+                        Contact Us
+                    </a>
+                </li>
+                <li>
+                    <a href="/careers">
+                        Careers
+                    </a>
+                </li>
+                <li>
+                    <a href="/press">
+                        Media Coverage
+                    </a>
+                </li>
+                <li>
+                    <a href="/privacy_policy">
+                        Privacy Policy
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-6 col-md-4">
+            <ul>
+                <li>
+                    <h5 class="footer_heading"> Product</h5>
+                </li>
+                <li>
+                    <a href="https://blog.instalocate.com/introducing-instalocate-e729e2c41f10">
+                        AI Personal Travel Assistant
+                    </a>
+                </li>
+                <li>
+                    <a href="http://app.instalocate.com">
+                        Flight Compensation
+                    </a>
+                </li>
+                <li class="instalocate_hide">
+                    <a href="/track">
+                        Track your flight
+                    </a>
+                </li>
+                <li>
+                    <a href="/passenger_rights">
+                        Passenger Rights
+                    </a>
+                </li>
+                <li>
+                    <a href="/passenger_rights/india">
+                        Indian Laws
+                    </a>
+                </li>
+                <li>
+                    <a href="/passenger_rights/baggage_laws">
+                        Baggage Laws
+                    </a>
+                </li>
+                <li>
+                    <a href="/testimonials">
+                        Testimonials
+                    </a>
+                </li>
+                <li class="instalocate_hide">
+                    <a href="/pricing">
+                        Pricing
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-6 col-md-4">
+            <ul>
+                <li>
+                    <h5 class="footer_heading"> Follow Us</h5>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/Instalocate">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/instalocate">Instalocate</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCb6Mu89zTXla7K1lvTAOpRg">YouTube</a>
+                </li>
+                <li>
+                    <a href="mailto:hello@instalocate.com?Subject=Hello">hello@instalocate.com</a>
+                </li>
+                <li>
+                    <a href="tel:+91919818152187">Call +91-9818152187</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</footer>
+                <script type="text/javascript">
+// this is done because of bootstrap 4 check of Tether library
+window.Tether = {};
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--SCRIPTS-->
+<script src="production.v1512041343308.min.js"></script>
+<!--SCRIPTS END-->
+
+<script type="text/javascript">
+$(document).ready(function() {
+    installClickTracking();
+    installVariousListeners();
+    var all_params = JSON.parse('{"development_server":false,"facebook_messenger":{"app_id":"1067311786665189","page_id":"182539172078482","bot_server_url":"https://www.instalocate.com/facebook/receive"},"instalocate_settings":{"facebook_messenger":{"development":{"app_id":"1080194138710287","page_id":"1586723644988758","bot_server_url":"https://37ca62c4.ngrok.io/facebook/receive"},"production":{"app_id":"1067311786665189","page_id":"182539172078482","bot_server_url":"https://www.instalocate.com/facebook/receive"}},"facebook_pixel_id":"138154540006948","aws_cloudfront_base_url":"https://d1386yamvz0i20.cloudfront.net"},"values_to_pass":{"press_coverage":[{"title":"Economic Times","outlet_name":"The Economic Times","logo_url":"/images/media_coverage/logos/et_logo_2.jpg","link":"https://economictimes.indiatimes.com/small-biz/startups/how-instalocate-helps-aggrieved-flyers-get-compensation-from-airlines/articleshow/61085741.cms","priority":"1"},{"title":"Forbes","outlet_name":"Forbes","logo_url":"/images/media_coverage/logos/forbes.png","link":"https://www.forbes.com/sites/tomaslaurinavicius/2017/04/24/facebook-messenger-bots/#853e06366d88","priority":"1"},{"title":"ChatBottle Awards","outlet_name":"ChatBottle","logo_url":"/images/media_coverage/logos/chatbottle.png","link":"https://chatbottle.co/awards/1st-chatbottle-awards-2017-winners","priority":"1"},{"title":"Venturebeat","outlet_name":"Venturebeat","logo_url":"/images/media_coverage/logos/venture_beat_logo1.png","link":"http://venturebeat.com/2017/01/25/the-7-best-chatbots-of-2016-by-popular-vote/","priority":"1"},{"title":"NDTV Gadgets","outlet_name":"NDTV","logo_url":"/images/media_coverage/logos/ndtvgadgetlogo.png","link":"http://gadgets.ndtv.com/apps/features/this-bot-lets-you-track-flights-using-facebook-messenger-863934","priority":"1"},{"title":"CNET","outlet_name":"CNET","logo_url":"/images/media_coverage/logos/cnet_logo.png","link":"https://www.cnet.com/videos/best-facebook-messenger-bots/","priority":"1"}],"testimonials":[{"testimonial_id":"1","name":"Amit","picture":"/images/media_coverage/logos/forbes.png","testimonial_entry":"2 minutes to fill out their form, and done nothing after that! Was very happy to get $734.53 from Delta.","language":"en","location":"Cummings, GA, USA","testimonial_type":"home"},{"testimonial_id":"2","name":"Neomi","picture":"/images/media_coverage/logos/forbes.png","testimonial_entry":"The airline was playing hard-ball, but I got my claim money through Instalocate. Excellent help, thanks guys!","language":"en","location":"Menlo Park, CA, USA","testimonial_type":"home"},{"testimonial_id":"3","name":"Lucy","picture":"/images/media_coverage/logos/forbes.png","testimonial_entry":"These people are real professionals. They have their process in place! My compensation is here, thank you, Instalocate!","language":"en","location":"San Francisco, CA, USA","testimonial_type":"home"}],"blogs_entries":[{"blog_id":"1","blog_title":"How Instalocate got me $734.53 in compensation?","blog_url":"https://blog.instalocate.com/how-instalocate-got-me-734-53-in-compensation-for-an-ugly-14-hour-flight-delay-78d9c932eb28","language":"en","picture":"/images/home_page/blogs/blog_1.jpeg"},{"blog_id":"3","blog_title":"How to deal with baggage delays?","blog_url":"https://blog.instalocate.com/how-to-deal-with-baggage-delays-de432b111b13","language":"en","picture":"/images/home_page/blogs/blog_3.jpeg"},{"blog_id":"2","blog_title":"Did you know a flight delay could mean 600 Euros?","blog_url":"https://blog.instalocate.com/did-you-know-a-long-flight-delay-could-mean-600-euros-4a5b67367b81","language":"en","picture":"/images/home_page/blogs/blog_2.jpeg"}]},"page_title":"Instalocate - AI Personal Travel Assistant","meta_tags":{"keywords":"Flight Delays, Location Gateway, Facebook bot, Chatbots, Flight Tracking, Compensation, EC 261, Flight Cancellation, Denied Boarding","meta_description":"Instalocate is an AI powered personal travel assitant to convert your flight delays into money. Instalocate assistant tracks your journey in real time, predicts possible problems and then help you in resolving the problems automatically.","meta_description_for_social_media":"Instalocate converts flight delays and cancellation into free money. Use Instalocate AI assistant to get up to $700 (600 Euros) in compensation for flight delays and cancellation.","title":"Convert your flight delays into free money using Instalocate.","image":"https://www.instalocate.com/images/screenshots/new_images/instalocate5.png","image_social_media":"https://www.instalocate.com/images/screenshots/new_images/instalocate_twitter_card_picture.png","image_twitter":"https://www.instalocate.com/images/screenshots/new_images/instalocate_twitter_card_picture.png","twitter":{"site":"@instalocate","creator":"@instalocate"},"open_graph":{"site_name":"Instalocate","site":"www.instalocate.com","url":"https://www.instalocate.com","site_type":"website"}},"navigation_links":[{"title":"home1_nav"},{"title":"home2_nav"}]}');
+    trackVariousParameters(all_params);
+    configureVariousParams();
+});
+</script>
+
+    </body>
+    <!-- body tag ends -->
+
+</html>
